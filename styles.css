@@ -1,0 +1,188 @@
+/* Estilos comunes */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-align: justify;
+}
+
+.header {
+    background-color: #161616;
+    color: #ff8c00;
+    padding: 15px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.navbar {
+    background-color: #131313;
+    color: #ff8c00;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-logo img {
+    width: 100px; /* Ajusta este valor según tus preferencias */
+    height: auto; /* Mantiene la proporción original */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff8c00;
+}
+
+.navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #ff8c00;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-links a:hover {
+    color: #fff;
+}
+
+.navbar-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ff8c00;
+}
+
+.footer {
+    background-color: #070707;
+    color: #ff8c00;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos específicos para todas las páginas */
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos específicos para index.html, register.html, contact.html, information.html */
+.main-section,
+.register-section,
+.contact-section,
+.information-section {
+    margin: 80px 0 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+    flex: 0 0 calc(48% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.blog-post h2,
+.blog-post p,
+.register-form label,
+.contact-form label,
+.information-content h2,
+.information-content p {
+    color: #333;
+}
+
+/* Estilos específicos para register.html */
+.register-section {
+    max-width: 800px;
+    margin: 80px auto 0; /* Centrar el cuadro de registro */
+}
+
+.register-form input,
+.register-form button {
+    width: 100%;
+}
+
+/* Estilos específicos para contact.html */
+.contact-section {
+    max-width: 800px;
+    margin: 80px auto 0; /* Centrar el cuadro de contacto */
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+}
+
+/* Estilos específicos para information.html */
+.information-section {
+    max-width: 800px;
+    margin: 80px auto 0; /* Centrar el cuadro de información */
+}
+/*--------------------------------------------------------------------------*/
+
+.index .blog-post {
+    position: relative;
+}
+
+.index .blog-post .corner-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+}
+
+.index .blog-post .corner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.p1{
+    width: 1000px;
+}
+

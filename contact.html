@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi Blog Personal</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="contact">
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">Logo</div>
+            <ul class="navbar-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="register.html">Registrarse</a></li>
+                <li><a href="information.html">Información</a></li>
+            </ul>
+            <div class="navbar-toggle" id="navbarToggle">&#9776;</div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="contact-section">
+            <div class="contact-form">
+                <h2>Contacto</h2>
+                <form action="#" method="post">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Correo_electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 Mi Blog Personal. </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
